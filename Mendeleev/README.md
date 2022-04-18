@@ -18,7 +18,7 @@ Simple console tool for geting information about all chemical elements such as:
 To run Mendeleev please run
 
 ```bash
-main.rb
+ruby main.rb
 ```
 
 and then select the element wich you want to know about

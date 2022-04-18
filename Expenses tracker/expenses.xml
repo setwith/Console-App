@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<expenses>
+  <expense date='11.02.2022' category='study' amount='500'>
+     Курс програмування 
+  </expense>
+  <expense date='12.03.2022' category='study' amount='480'>
+     Книга по програмуванню 
+  </expense>
+  <expense date='13.03.2022' category='rest' amount='300'>
+     Подушка 
+  </expense>
+  <expense date='13.03.2022' category='work' amount='15000'>
+     Телефон 
+  </expense>
+  <expense amount='122' category='dkd' date='2222-01-11'>
+    gjfh
+  </expense>
+</expenses>

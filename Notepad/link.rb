@@ -15,6 +15,15 @@ class Link < Post
   def to_strings
     time_string = "Створено: #{@created_at.strftime('%Y.%m.%d, %h:%M:%S')}"
 
-    return [@url, @text, time_string]
+    [@url, @text, time_string]
+  end
+
+  def to_db_hash
+    super.merge(
+      {
+        'text' => @text,
+        'url' => @url
+      }
+    )
   end
 end

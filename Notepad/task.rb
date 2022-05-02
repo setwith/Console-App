@@ -20,6 +20,15 @@ class Task < Post
     time_string = "Створено: #{@created_at.strftime('%Y.%m.%d, %h:%M:%S')}"
     deadline = "Крайній термін: #{@due_date}"
 
-    return [deadline, @text, time_string]
+    [deadline, @text, time_string]
+  end
+
+  def to_db_hash
+    super.merge(
+      {
+        'text' => @text,
+        'due_date' => @due_date.to_s
+      }
+    )
   end
 end

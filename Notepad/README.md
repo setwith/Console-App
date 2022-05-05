@@ -9,7 +9,7 @@ The program use SQLite3
 To add some memories, tasks, or links please run
 
 ```bash
-ruby expenses_reader.rb
+ruby new_post.rb
 ```
 
 and follow instructions.
